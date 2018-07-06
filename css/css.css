@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    background-color: black;
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 14px;
+    color: white;
+}
+
+.container-fluid {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.background {
+    width: 100%;
+    background-image: url('../img/bg.png');
+    background-size: 1350px 800px;
+    /* co dinh background*/
+    background-attachment: fixed;
+    margin: 0px !important;
+    padding: 0px !important;
+    /*transition lam mo dan tu ngoai vao trong*/
+    opacity: 1;
+    transition: background-image 1.5s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+}
+
+center {
+    color: white;
+}
+
+center .border-fix {
+    border-bottom: 1px white solid;
+}
+
+.no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-black {
+    background-image: url('../img/black.png') !important;
+    opacity: 1;
+    transition: background-image 1.5s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+}
+
+.bg-map {
+    background-image: url('../img/map1.png') !important;
+    opacity: 1;
+    transition: background-image 1.5s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+}
+
+
+/*content1*/
+
+.content {
+    height: 700px;
+    margin-top: 125px;
+    text-align: center;
+    z-index: 1;
+}
+
+center {
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.bg-title {
+    color: #ECE0C6;
+    font-size: 18px;
+    text-align: center;
+}
+
+.color-time {
+    color: #9D9687;
+}
+
+hr {
+    width: 80%;
+    border-top: 1px solid #999999 !important;
+}
+
+.title {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.title img {
+    width: 800px;
+    height: 200px;
+}
+
+.compact {
+    font-size: 18px;
+    color: white;
+}
+
+
+/*end content1*/
+
+
+/*introductory*/
+
+.introductory .intro,
+.introductory .chart,
+.introductory .chart img {
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+    font-size: 28px;
+    z-index: -1;
+}
+
+.introductory .chart img {
+    padding-top: 20px;
+}
+
+.introductory .chart img {
+    width: 100%;
+}
+
+.introductory .intro p::first-letter {
+    float: left;
+    padding: 15px 8px 0 0;
+    display: block;
+    font: 100px/50px 'Roboto Slab', serif;
+}
+
+
+/*end introductory*/
+
+
+/*case1*/
+
+.name_case {
+    padding-left: 200px;
+    padding-top: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+.name_case p,
+.name_case i {
+    width: 300px;
+}
+
+.reason {}
+
+.location {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 600px;
+    top: 300px;
+    background-image: url('../img/Run.ico');
+    cursor: pointer;
+}
+
+.offset_location2 {
+    left: 1000px;
+    top: 500px;
+}
+
+.video {
+    padding-top: 200px;
+    width: 50%;
+    margin: 0 auto;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*end case1 */
+
+.footer {
+    padding-top: 300px;
+    text-align: center;
+    color: white;
+}
+
+@media all and (max-width: 360px) {
+    .container-fluid {
+        background-position-x: -475px;
+    }
+}
